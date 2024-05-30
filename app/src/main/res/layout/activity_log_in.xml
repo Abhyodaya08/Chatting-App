@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".LogIn">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:layout_marginVertical="10dp"
+        android:textStyle="italic"
+        android:text="Log In"
+        android:textSize="50dp" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Email"
+        android:paddingHorizontal="10dp"
+        android:background="@drawable/et_background"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Password"
+        android:paddingHorizontal="10dp"
+        android:background="@drawable/et_background"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/btnLogIn"
+        android:text="Log In"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/green"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:text="Sign Up"
+        android:layout_margin="5dp"
+        android:backgroundTint="@color/green"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
